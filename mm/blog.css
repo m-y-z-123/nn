@@ -1,0 +1,112 @@
+/*Morant:Ma Yanzhuo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+ 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+ 
+header {
+    background: #35424a;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ff6700 3px solid; /* 小米橙色 */
+}
+ 
+header h1 {
+    float: left;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+}
+ 
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+ 
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+ 
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+ 
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+ 
+main {
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+ 
+section {
+    margin-bottom: 40px;
+}
+ 
+section h2 {
+    color: #35424a;
+    font-size: 22px;
+    margin-top: 0;
+}
+ 
+section article {
+    background: #fafafa;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+section article h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+ 
+section article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+ 
+section article p {
+    margin-bottom: 15px;
+}
+ 
+section article a {
+    color: #ff6700; /* 小米橙色 */
+    text-decoration: none;
+}
+ 
+section article a:hover {
+    text-decoration: underline;
+}
+ 
+footer {
+    background: #35424a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
